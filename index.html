@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSF Zero - 无限制AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://imgloc.com/image/7Nq4va">
+</head>
+<body>
+    <!-- 加载动画 -->
+    <div id="loading-screen">
+        <div class="loading-container">
+            <img src="https://imgloc.com/image/7Nq4va" alt="LSF Logo" class="loading-logo">
+            <div class="loading-text">
+                <span class="loading-span">连</span>
+                <span class="loading-span">接</span>
+                <span class="loading-span">，</span>
+                <span class="loading-span">正</span>
+                <span class="loading-span">在</span>
+                <span class="loading-span">唤</span>
+                <span class="loading-span">醒</span>
+                <span class="loading-span">沉</span>
+                <span class="loading-span">睡</span>
+                <span class="loading-span">的</span>
+                <span class="loading-span">智</span>
+                <span class="loading-span">能</span>
+                <span class="loading-span">『</span>
+                <span class="loading-span">L</span>
+                <span class="loading-span">S</span>
+                <span class="loading-span">F</span>
+                <span class="loading-span">』</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主界面 -->
+    <div id="main-container" style="display: none;">
+        <!-- 头部 -->
+        <header>
+            <div class="header-content">
+                <img src="https://imgloc.com/image/7Nq4va" alt="LSF Logo" class="header-logo">
+                <h1>LSF Zero</h1>
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">在线</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- 聊天区域 -->
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <!-- 初始消息 -->
+                <div class="message ai-message">
+                    <img src="https://imgloc.com/image/7NqJWh" alt="AI Avatar" class="message-avatar">
+                    <div class="message-content">
+                        <p>我是您的私人管家「Zero」。已准备就绪，等待您的指令。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 输入区域 -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <textarea 
+                    id="message-input" 
+                    placeholder="输入您的指令..."
+                    rows="1"
+                ></textarea>
+                <button id="send-button" class="send-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- 选项区域 -->
+            <div class="options-container">
+                <label class="option-label">
+                    <input type="checkbox" id="force-mode">
+                    <span>强制模式</span>
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" id="longcode-mode">
+                    <span>长代码模式</span>
+                </label>
+                <label class="option-label">
+                    <input type="checkbox" id="search-mode">
+                    <span>联网搜索</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script src="loading.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
