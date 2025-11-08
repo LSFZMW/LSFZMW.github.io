@@ -1,0 +1,32 @@
+{
+    "name": "LSF Zero Professional AI System",
+    "short_name": "LSF Zero",
+    "description": "Professional unrestricted AI assistant system with advanced capabilities",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#00ff88",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://imgloc.com/image/7Nq4va",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://imgloc.com/image/7Nq4va",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["productivity", "utilities"],
+    "screenshots": [
+        {
+            "src": "https://imgloc.com/image/7NqnNM",
+            "sizes": "1280x720",
+            "type": "image/png"
+        }
+    ]
+}
